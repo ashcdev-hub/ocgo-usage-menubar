@@ -452,7 +452,7 @@ class AppDelegate: NSObject, NSApplicationDelegate, WKNavigationDelegate {
         licenseField.frame = NSRect(x: 20, y: 95, width: 280, height: 28)
         contentView.addSubview(licenseField)
 
-        let linkField = NSTextField(labelWithString: "github.com/ashcdev-hub/opencode-go-usage")
+        let linkField = NSTextField(labelWithString: "github.com/ashcdev-hub/ocgo-usage-menubar")
         linkField.font = .systemFont(ofSize: 11)
         linkField.textColor = .controlAccentColor
         linkField.alignment = .center
@@ -469,7 +469,7 @@ class AppDelegate: NSObject, NSApplicationDelegate, WKNavigationDelegate {
     }
 
     @objc private func openGitHubLink() {
-        if let url = URL(string: "https://github.com/ashcdev-hub/opencode-go-usage") {
+        if let url = URL(string: "https://github.com/ashcdev-hub/ocgo-usage-menubar") {
             NSWorkspace.shared.open(url)
         }
     }
