@@ -1,4 +1,4 @@
-# Opencode Go Usage
+# OCGO Usage (Menu Bar)
 
 A lightweight macOS menu bar app that displays your [OpenCode GO](https://opencode.ai/go) subscription usage in realtime.
 
@@ -23,7 +23,7 @@ Inspired by needing to quickly view usage stats outside of a browser, that I was
 
 ### Download
 
-1. Download the latest [Release](https://github.com/ashcdev-hub/opencode-go-usage/releases)
+1. Download the latest [Release](https://github.com/ashcdev-hub/ocgo-usage-menubar/releases)
 2. Unzip and move `Opencode Go Usage.app` to your Applications folder
 3. When the security warning appears, go to **System Settings → Privacy & Security** → click **Open Anyway** next to the blocked app message
 
